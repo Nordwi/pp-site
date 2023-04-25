@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gabriela", serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: #FEF2FF;
+  height: 100vh;
+  overflow: hidden;
+  color: #553d8b;
+}
+#nav-bar{
+    position: absolute;
+    width: 1600px;
+    height: 84px;
+    background: #CBC1FD;
+}
+#main-logo{
+    position: absolute;
+    width: 84px;
+    height: 84px;
+}
+#name{
+    position: absolute;
+    width: 201px;
+    height: 49px;
+    left: 94px;
+    top: 18px;
+    font-family: 'Iceberg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+}
+.txt_field{
+    position: absolute;
+    width: 1000px;
+    height: 85px;
+    left: 220px;
+    top: 130px;
+    background: rgba(160, 168, 240, 0.3);
+    border-radius: 20px;
+}
+#search{
+    position: relative;
+    width: 85px;
+    height: 85px;
+    left: 1133px;
+    top: 130px;
+}
