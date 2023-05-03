@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="chat.css">
+  </head>
+  <body>
+    <main>
+		<header>
+			<div class="title">
+				<img src="images/logo.png" width="45px">
+				<h1 id="name">HireMeNow</h1>
+			</div>
+			<button type="button">
+				<img src="images/hamburger.png" width="50px">
+			</button>
+		</header>
+		<div class="container">
+			<div class="users-window">
+				<div class="users-head">
+					<h3>Пользователи:</h3>
+					<h4>3</h4>
+				</div>
+				<div class="users-list">
+					<p>Капитал прожиточного минимума</p>
+					<p>Жмышенко Валерий</p>
+					<p>Админ</p>
+				</div>
+			</div>
+			<div class="chat-window">
+				<div class="chats">
+					<div class="user-join">
+						<p>Диалог с <b>Капиталом прожиточного минимума</b></p>
+					</div>
+					<div class="message incoming">
+						<p>Ну как там с деньгами?</p>
+					</div>
+					<div class="message outgoing">
+						<p>Какими деньгами?</p>
+					</div>
+					<div class="message incoming">
+						<p>Которые я вложил...</p>
+					</div>
+				</div>
+				<form class="user-input">
+					<input id="main-input" type="text" placeholder="Напишите сообщение...">
+					<label id="clip">
+						<input type="file">
+					</label>
+				<button type="submit" id="send-btn">ОТПРАВИТЬ</button>
+				</form>
+			</div>
+		</div>
+	</main>
+   </body>
+</html>
+
